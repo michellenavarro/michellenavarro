@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.splash-page {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin: 1em;
+}
+
+h1{
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-weight: 900;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../img/la.jpg) no-repeat;
+    background-size: cover; 
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+
+.splash-page .panel {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-weight: 900;;
+    text-align: center;
+    background-color: rgba(145, 81, 81, 0.4);
+}
+
+.splash-page .panel:hover {
+    background-color: rgba(145, 81, 81, 0.65);
+    -webkit-transition:background-color .4s ease-in; 
+    -moz-transition:background-color .4s ease-in; 
+    -o-transition:background-color .4s ease-in; 
+    transition:background-color .4s ease-in;
+}
+
+.social{
+    height: 3em;
+    width: 3em;
+    margin: 1em;
+}
+
+.social:hover{
+    height:2.5em;
+    width:2.5em;
+    margin-left:1.25em;
+    margin-right:1.25em;
+}
