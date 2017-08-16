@@ -12,8 +12,6 @@ body {
 
 .splash-page {
     margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .profile-pic{
@@ -56,11 +54,11 @@ video#bgvid {
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     font-weight: 900;;
     text-align: center;
-    background-color: rgba(145, 81, 81, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .splash-page .panel:hover {
-    background-color: rgba(145, 81, 81, 0.65);
+    background-color: rgba(255, 255, 255, 0.4);
     -webkit-transition:background-color .4s ease-in; 
     -moz-transition:background-color .4s ease-in; 
     -o-transition:background-color .4s ease-in; 
