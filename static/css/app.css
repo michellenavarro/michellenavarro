@@ -4,6 +4,8 @@ body, html {
 }
 
 body {
+    background-image: url('../img/disneyhall.jpg');
+    background-size: cover;
     background-color: rgba(99, 166, 255, 0.6);
     background-repeat: no-repeat;
     background-attachment: fixed;
