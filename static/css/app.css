@@ -24,6 +24,7 @@ body {
 }
 
 h1{
+    white-space: nowrap;
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     font-weight: 700;
     padding-top: 1rem;
