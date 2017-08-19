@@ -34,6 +34,26 @@ p {
     padding-bottom: 1rem;
 }
 
+.emailtext {
+    visibility: hidden;
+}
+
+.resumetext {
+    visibility: hidden;
+}
+
+.linkedintext {
+    visibility: hidden;
+}
+
+.githubtext {
+    visibility: hidden;
+}
+
+.angeltext {
+    visibility: hidden;
+}
+
 .splash-page .panel {
     font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
     font-weight: 600;
