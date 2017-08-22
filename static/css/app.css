@@ -10,7 +10,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    min-height: 100%;
 }
 
 .splash-page {
@@ -81,5 +80,9 @@ p {
         width:1.5em;
         margin-left:.75em;
         margin-right:.75em;
+    }
+
+    body{
+        position:fixed;
     }
 }
